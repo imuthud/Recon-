@@ -34,3 +34,18 @@ All outputs are saved in a sub-folder named after your target:
 ## License
 
 MIT or your preferred license.
+
+## Download or create:
+
+wordlist.txt – For subdomain brute-forcing
+
+resolvers.txt – For PureDNS
+
+directory-list.txt – For FFUF
+
+You can use public resources like:
+
+bash
+curl -O https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/DNS/subdomains-top1million-110000.txt -o wordlist.txt
+curl -O https://raw.githubusercontent.com/trickest/resolvers/main/resolvers.txt
+curl -O https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/common.txt -o directory-list.txt
